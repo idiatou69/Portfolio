@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["aho1a"]); }
+
+__d("ProfileCometBioTextEditorPrivacyIconQuery$Parameters",[],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:"3915210791886895",metadata:{relayPreloadable:!0},name:"ProfileCometBioTextEditorPrivacyIconQuery",operationKind:"query",text:null}};e.exports=a}),null);
+__d("ProfileCometBioTextEditor.entrypoint",["JSResource","ProfileCometBioTextEditorPrivacyIconQuery$Parameters"],(function(a,b,c,d,e,f){"use strict";a={getPreloadProps:function(a){a=a.profileID;return{queries:{queryReference:{options:{fetchPolicy:"network-only"},parameters:b("ProfileCometBioTextEditorPrivacyIconQuery$Parameters"),variables:{id:a}}}}},root:b("JSResource")("ProfileCometBioTextEditor.react").__setRef("ProfileCometBioTextEditor.entrypoint")};e.exports=a}),null);
