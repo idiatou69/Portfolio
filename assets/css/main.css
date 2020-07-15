@@ -12,7 +12,9 @@ body {
 * {
 	box-sizing: border-box;
 }
-
+.skill{
+	text-align: center;
+}
 /* general */
 
 .container {
